@@ -1,14 +1,14 @@
 a {
     border-radius: 16px;
-    border: 2px solid #fff;
+    border: 2px solid #DF4333;
     padding: 4px 8px;
-    background-color: #E0886F;
+    background-color: #FC9F8C;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #FFEFD0;
 }
 body {
-    background-color: #E18051;
+    background-color: #DE8472;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -16,7 +16,7 @@ body {
     align-items: center;
     margin-top: 64px;
     gap: 32px;
-    color: #fff;
+    color: #FFEFD0;
 }
 *{
     margin: 0;
@@ -35,13 +35,13 @@ section {
 }
 section img {
     width: 30%;
-    border: 2px solid #fff;
+    border: 3px solid #DF4333;
 }
 section p {
     width: 80%;
 }
 .texto {
-    border: 2px solid #fff;
+    border: 2px solid #DF4333;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ section p {
     margin: 8px;
 }
 hr {
-    border: 1px solid #fff;
+    border: 1px solid #DF4333;
     width: 80%;
     margin: 8px 0 ;
 }
@@ -57,6 +57,11 @@ hr {
     width: 32px;
     filter: invert(1);
 }
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+    color: #613834;
+}   
 @media screen and (max-width: 768px) {
     section {
         flex-direction: column;
