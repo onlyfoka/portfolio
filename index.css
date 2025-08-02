@@ -30,7 +30,8 @@ section {
     display: flex;
     flex-direction: row;
     gap: 32px;
-    max-width: 70%;
+    max-width: 100%;
+    margin: 32px;
 
 }
 section img {
@@ -39,8 +40,9 @@ section img {
 }
 section p {
     width: 80%;
+    margin: 12px;
 }
-.texto {
+.caixa-texto {
     border: 2px solid #DF4333;
     width: 50%;
     display: flex;
@@ -59,7 +61,7 @@ hr {
 }
 .header {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
     color: #613834;
 }   
 @media screen and (max-width: 768px) {
