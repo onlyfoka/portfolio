@@ -14,8 +14,7 @@ body {
     justify-content: start;
     height: 100vh;
     align-items: center;
-    margin-top: 64px;
-    gap: 32px;
+    margin-top: 40px;
     color: #FFEFD0;
 }
 *{
@@ -44,7 +43,6 @@ section p {
 }
 .caixa-texto {
     border: 2px solid #DF4333;
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +57,10 @@ hr {
     width: 32px;
     filter: invert(1);
 }
+.icones {
+    padding-bottom: 40px;
+}
+
 .header {
     text-align: center;
     margin-bottom: 12px;
