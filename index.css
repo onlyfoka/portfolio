@@ -1,21 +1,21 @@
 a {
     border-radius: 16px;
-    border: 2px solid #DF4333;
+    border: 2px solid #af133c;
     padding: 4px 8px;
-    background-color: #FC9F8C;
+    background-color: #3D5D91;
     text-align: center;
     text-decoration: none;
-    color: #FFEFD0;
+    color: #F2DCDB;
 }
 body {
-    background-color: #DE8472;
+    background-color: #69829F;
     display: flex;
     flex-direction: column;
     justify-content: start;
     height: 100vh;
     align-items: center;
     margin-top: 40px;
-    color: #FFEFD0;
+    color: #F2DCDB;
 }
 *{
     margin: 0;
@@ -35,21 +35,21 @@ section {
 }
 section img {
     width: 30%;
-    border: 3px solid #DF4333;
+    border: 3px solid #F2AEBC;
 }
 section p {
     width: 80%;
     margin: 12px;
 }
 .caixa-texto {
-    border: 2px solid #DF4333;
+    border: 2px solid #af133c;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 8px;
 }
 hr {
-    border: 1px solid #DF4333;
+    border: 1px solid #F2AEBC;
     width: 80%;
     margin: 8px 0 ;
 }
@@ -64,8 +64,13 @@ hr {
 .header {
     text-align: center;
     margin-bottom: 12px;
-    color: #613834;
+    color: #840e2d;
 }   
+.logo {
+    width: 120px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
 @media screen and (max-width: 768px) {
     section {
         flex-direction: column;
