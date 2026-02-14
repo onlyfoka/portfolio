@@ -52,6 +52,7 @@ hr {
     border: 1px solid #F2AEBC;
     width: 80%;
     margin: 8px 0 ;
+    margin-bottom: 20px;
 }
 .icones img{
     width: 32px;
@@ -71,6 +72,73 @@ hr {
     margin-bottom: -30px;
     margin-top: -30px;
 }
+.portfolio {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.portfolio p {
+    text-align: center;
+}
+.portfolio-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.portfolio img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+     cursor: zoom-in;
+    transition: transform 0.3s ease;
+
+}
+.portfolio img:hover {
+    transform: scale(1.03);
+}
+h2 {
+    color: #840e2d;
+    
+}
+/* Modal */
+#modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  cursor: zoom-out;
+}
+
+#modal img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 12px;
+    animation: zoomIn 0.3s ease;
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 @media screen and (max-width: 768px) {
     section {
         flex-direction: column;
